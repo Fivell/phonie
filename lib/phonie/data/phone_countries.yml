@@ -282,6 +282,10 @@
   :iso_3166_code: CN
   :name: China
   :international_dialing_prefix: '00'
+  :area_code: \d{2,5}
+  :local_number_format: \d{7,8}
+  :mobile_format: \d{11}
+  :number_format: \d{9,12} 
 -
   :country_code: '960'
   :national_dialing_prefix: None
